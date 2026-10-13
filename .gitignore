@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# PaySim and generated datasets
+data/*.csv
+data/*.zip
+
+# Generated model artifacts and evaluation outputs
+artifacts/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
